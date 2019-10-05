@@ -32,7 +32,7 @@ defmodule Showoff.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:chunky_svg, "~> 0.0.4"},
+      {:chunky_svg, github: "sfairchild/chunky_svg"},
       {:distillery, "~> 2.0"},
       {:phoenix, "~> 1.4.3"},
       {:phoenix_pubsub, "~> 1.1"},
