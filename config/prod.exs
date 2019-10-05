@@ -15,6 +15,7 @@ config :showoff, ShowoffWeb.Endpoint,
   server: true, # Without this line, your app will not start the web server!
   secret_key_base: "${SECRET_KEY_BASE}",
   url: [host: "nippy-plum-grebe.gigalixirapp.com", port: 80],
+  check_origin: false,
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 
