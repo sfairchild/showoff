@@ -1,0 +1,10 @@
+{application,chunky_svg,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"  A library for drawing things with SVG\n"},
+              {modules,['Elixir.ChunkySVG','Elixir.ChunkySVG.Builtin',
+                        'Elixir.ChunkySVG.Cons','Elixir.ChunkySVG.Hills',
+                        'Elixir.ChunkySVG.InlineMacro',
+                        'Elixir.ChunkySVG.Polygon',
+                        'Elixir.Mix.Tasks.GenerateExamples']},
+              {registered,[]},
+              {vsn,"0.0.4"}]}.
