@@ -4,9 +4,9 @@ defmodule ShowoffWeb.ScratchpadLive do
   alias Showoff.{Examples, RecentDrawings}
 
   def mount(%{}, socket) do
-    if connected?(socket) do
+    # if connected?(socket) do
       :ok = ShowoffWeb.Endpoint.subscribe("recent_drawings")
-    end
+    # end
 
     socket = socket
              |> assign(:x, 0)
